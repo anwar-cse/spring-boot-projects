@@ -1,0 +1,44 @@
+package com.anwar.main.model;
+
+public class coder {
+
+	private int id;
+	private String name;
+	private String language;
+    private computer Computer;
+	public coder() {
+		super();
+	}
+
+	public coder(int id, String name, String language,computer Computer {
+		super();
+		this.id = id;
+		this.name = name;
+		this.language = language;
+		this.Computer=computer;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
+	}
+}

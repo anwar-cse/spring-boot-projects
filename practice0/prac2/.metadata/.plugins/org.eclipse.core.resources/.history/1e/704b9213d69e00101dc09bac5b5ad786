@@ -1,0 +1,15 @@
+package com.anwar.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class XmlBasedSetterInjectionApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext context=SpringApplication.run(XmlBasedSetterInjectionApplication.class, args);
+		
+		coder c1=(coder)context.getBean("");
+		}
+
+}
